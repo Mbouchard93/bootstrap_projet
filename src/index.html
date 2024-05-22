@@ -1,15 +1,59 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap w/ Vite</title>
-    <script type="module" src="./js/main.js"></script>
-  </head>
-  <body>
-    <div class="container py-4 px-3 mx-auto">
-      <h1>Hello, Bootstrap and Vite!</h1>
-      <button class="btn btn-primary">Primary button</button>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap w/ Vite</title>
+  <script type="module" src="./js/main.js"></script>
+</head>
+
+<body>
+  <div class="text-white bg-secondary  ">
+    <p class="m-0 text-center p-1 ">Livraison gratuite pour les commandes de 75$ et plus</p>
+  </div>
+  <header class="bg-success-subtle ">
+    <nav class="d-flex  w-100 justify-content-between   ">
+      <di>
+      <img src="./img/logo_mt.png" height="60px" alt="">
+    </di>
+      <ul  class=" d-md-flex list-unstyled d-none justify-content-between w-50 align-items-center m-0 ">
+        <li>Acceuil</li>
+        <li>Produit</li>
+        <li>À propos</li>
+        <li>FAQ</li>
+        <li>contact</li>
+      </ul>
+      <div class="w-50 sm d-flex  justify-content-end pe-5  ">
+        <button class="btn  ">
+          <img src="./img/icone/search.svg" alt="">
+        </button>
+        <button class="btn">
+          <img src="./img/icone/shopping.svg" alt="">
+        </button>
+        <button class="btn d-md-none  " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+          aria-controls="offcanvasWithBothOptions">
+          <img src="./img/icone/menu.svg" alt="">
+        </button>
+      </div>
+    </nav>
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+      aria-labelledby="offcanvasWithBothOptionsLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="list-unstyled ">
+          <li>Acceuil</li>
+          <li>Produit</li>
+          <li>À propos</li>
+          <li>FAQ</li>
+          <li>Contact</li>
+        </ul>
+      </div>
     </div>
-  </body>
+  </header>
+</body>
+
 </html>

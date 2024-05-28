@@ -8,7 +8,7 @@
   <script type="module" src="./js/main.js"></script>
 </head>
 
-<body class="bg-success" >
+<body class="bg-success " >
   <div class="text-white bg-secondary  ">
     <p class="m-0 text-center p-1 ">Livraison gratuite pour les commandes de 75$ et plus</p>
   </div>
@@ -54,15 +54,15 @@
       </div>
     </div>
   </header>
-  <main class="d-flex flex-column align-items-center">
+  <main class="d-flex flex-column align-items-center gap-5">
     <section class="container d-flex flex-column align-items-center justify-content-center flex-lg-row bg-success">
-      <div class="">
+      <div>
 
 
               <img src="./img/baner.png" height="450px"  alt="">
 
       </div>
-      <div class="pb-5 ">
+      <div class="pb-5">
           <h1>Planifier vôtre monter</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sint ducimus repellat. Eaque labore
               facilis perspiciatis natus dolorem, soluta culpa laboriosam at atque, eum laborum possimus nostrum,
@@ -72,10 +72,46 @@
               <button class="btn  btn-outline-secondary text-uppercase fw-medium pt-2 px-4">en savoir plus</button>
       </div>
   </section>
-    <section class="container products  gap-4 p-5 justify-content-center row">
+    <section class="container products  gap-4 justify-content-center row">
 
     </section>
+
   </main>
+  <footer class="bg-light d-flex justify-content-center mt-5 ">
+    <div class="row container align-content-center w-75 py-5 ">
+    <div class="col-md-6 p-2">
+      <img src="./img/logo_mt.png" height="60px" alt="">
+      <div class="w-50">
+        <h5>Contactez-Nous</h5>
+        <p class="m-0 fs-6">Vous avez des questions sur nos sac écrivez-nous un e-mail</p>
+        <a href="mailto:info@montagne.com?subject=Bonjour&body=Voici mon message.">info@montagne.com</a>
+      </div>
+      </div>
+      <div class="col-md-6 p-2 d-flex flex-column justify-content-center" >
+        <h4>Infolettre</h4>
+        <p>incrivez-vous pour recevoir des offre exclusives</p>
+        <form class="d-flex gap-2">
+          <input type="text " placeholder="E-mail" class="btn bg-white" >
+          <button class="btn btn-secondary">Envoyer</button>
+        </form>
+      </div>
+      <div class="col-md-6 p-2" >
+        <h4 >Menu</h4>
+        <ul class="list-unstyled">
+          <li>Acceuil</li>
+          <li>Produit</li>
+          <li>À propos</li>
+          <li>FAQ</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="col-md-6 p-2">
+        <h4>Suivez-nous</h4>
+        <img src="./img/fb.svg"  height="24px" alt="logo facebook">
+        <img src="./img/linkedin.svg" height="24px" alt="">
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
